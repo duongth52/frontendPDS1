@@ -19,6 +19,19 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: UTM-bebas;
+    src: url("../fonts/UTM-Bebas.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Arial;
+    src: url("../fonts/Arial.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     font-family: helvetica-neue-light;
     font-size: 13px;
@@ -189,21 +202,25 @@ ul{
 }
 .title-pro{
     margin: 30px 0px;
+    width: 173px;
+    background: #e67c8e;
+    border-radius: 3px;
+    text-align: center;
 }
 .title-pro span{
+    font-family: roboto-condensed-light;
     color: #FFFFFF;
     padding: 14px 12px;
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
-    background: #e67c8e;
-    border-radius: 3px;
     display: inline-block;
 }
 
 .product-item{
     border: 1px solid #F1F1F1;
     text-align: center;
+    margin-bottom: 19px;
 }
 
 .product-item .img-pro{
@@ -211,6 +228,26 @@ ul{
     overflow: hidden;
     position: relative;
  /*   margin: 10px 0px;*/
+}
+.sale{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    color: #FFFFFF;
+    border-radius: 50%;
+    right: 15px;
+    top: 20px;
+
+}
+.sale-color{
+    background: #ff8549;
+}
+.new-color{
+    background: #66bebb;
 }
 .botton-border{
     border-top: 1px solid #F1F1F1;
@@ -229,10 +266,10 @@ ul{
 .product-item .price-box{
     text-align: center;
     clear: both;
-    margin-top: 26px;
+    margin-top: 20px;
 }
 .product-item .price-box .price-news{
-    font-size: 17px;
+    font-size: 18px;
     font-weight: bold;
 }
 .product-item .price-box .price-old {
@@ -247,12 +284,112 @@ ul{
     text-transform: uppercase;
     font-weight: bold;
 }
+.btn-view{
+    margin-bottom: 20px;
+}
 .btn-view .btn{
     border: 1px solid #F1F1F1;
+    text-transform: uppercase;
+    padding: 8px;
 }
 .btn-view .btn:hover{
     background: #e67c8e;
 }
+/*-------------------------------common-box---------------------------*/
+.common-box{
+    background: #fbf9fa;
+    margin-top: 31px;
+}
 
+.mua-hang{
+    background: url("../images/icon4.png") no-repeat left center;
+}
+.khuyen-mai{
+    background: url("../images/icon5.png") no-repeat left center;
+}
+.box-muahang{
+    padding: 30px 0px;
+}
+.content-mh{
+    margin-left: 200px;
+    background: #FFFFFF;
+    padding-top: 27px;
+    padding-right: 12px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.content-mh h4{
+    font-family: roboto-condensed-light;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+}
+.content-mh p {
+    font-family: roboto-condensed-light;
+    text-align: justify;
+    font-size: 14px;
+    color: #000000;
+}
+.content-mh p:last-child a{
+    color: #e67c8e;
+}
+.box-brand{
+    padding: 25px 0px;
+}
+.item-img img{
+    max-width: 100%;
+    height: 154px;
+}
+footer{
+    background: #e7e7e7;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
 
+.item-content-ft h3{
+    font-size: 20px;
+    font-family: UTM-bebas;
+    text-transform: uppercase;
+    border-bottom: 1px solid #cccccc ;
+}
+.ft-left{
+    background: #FFFFFF;
+    padding: 23px 23px 15px 23px;
 
+}
+.ft-left p span{
+    font-family: Arial;
+    padding-left: 15px;
+    font-size: 13px;
+}
+.ft-center{
+    margin-left: 40px;
+}
+.ft-center p{
+    padding: 7px 0px;
+}
+.ft-center p a{
+    font-size: 13px;
+    color: #000000;
+}
+.ft-center p a:hover{
+    text-decoration: none;
+}
+.ft-right{
+
+    width: 222px;
+    font-family: Arial;
+    margin-left: 50px;
+}
+.item-ft-right{
+    margin-top: 14px;
+}
+.register{
+    background: #e67c8e;
+    text-transform: uppercase;
+    font-family: Arial;
+    color: #FFFFFF;
+    margin-top: 10px;
+    font-size: 15px;
+}
